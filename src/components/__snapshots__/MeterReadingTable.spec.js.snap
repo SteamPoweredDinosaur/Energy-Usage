@@ -1,0 +1,2463 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    meterReadings={
+      Array [
+        Object {
+          "cumulative": 17600,
+          "readingDate": "2017-03-31T00:00:00.000Z",
+          "unit": "kWh",
+        },
+        Object {
+          "cumulative": 17859,
+          "readingDate": "2017-04-30T00:00:00.000Z",
+          "unit": "kWh",
+        },
+        Object {
+          "cumulative": 18102,
+          "readingDate": "2017-05-31T00:00:00.000Z",
+          "unit": "kWh",
+        },
+        Object {
+          "cumulative": 18290,
+          "readingDate": "2017-06-30T00:00:00.000Z",
+          "unit": "kWh",
+        },
+        Object {
+          "cumulative": 18453,
+          "readingDate": "2017-07-31T00:00:00.000Z",
+          "unit": "kWh",
+        },
+        Object {
+          "cumulative": 18620,
+          "readingDate": "2017-08-31T00:00:00.000Z",
+          "unit": "kWh",
+        },
+        Object {
+          "cumulative": 18782,
+          "readingDate": "2017-09-30T00:00:00.000Z",
+          "unit": "kWh",
+        },
+        Object {
+          "cumulative": 18965,
+          "readingDate": "2017-10-31T00:00:00.000Z",
+          "unit": "kWh",
+        },
+        Object {
+          "cumulative": 19230,
+          "readingDate": "2017-11-30T00:00:00.000Z",
+          "unit": "kWh",
+        },
+        Object {
+          "cumulative": 19517,
+          "readingDate": "2017-12-31T00:00:00.000Z",
+          "unit": "kWh",
+        },
+        Object {
+          "cumulative": 19827,
+          "readingDate": "2018-01-31T00:00:00.000Z",
+          "unit": "kWh",
+        },
+        Object {
+          "cumulative": 20113,
+          "readingDate": "2018-02-28T00:00:00.000Z",
+          "unit": "kWh",
+        },
+        Object {
+          "cumulative": 20376,
+          "readingDate": "2018-03-31T00:00:00.000Z",
+          "unit": "kWh",
+        },
+        Object {
+          "cumulative": 20610,
+          "readingDate": "2018-04-30T00:00:00.000Z",
+          "unit": "kWh",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <tbody>
+        <tr>
+          <styled.th>
+            Date
+          </styled.th>
+          <styled.th>
+            Reading
+          </styled.th>
+          <styled.th>
+            Unit
+          </styled.th>
+        </tr>
+        <tr>
+          <td>
+            3/31/2017
+          </td>
+          <td>
+            17600
+          </td>
+          <td>
+            kWh
+          </td>
+        </tr>
+        <tr>
+          <td>
+            4/30/2017
+          </td>
+          <td>
+            17859
+          </td>
+          <td>
+            kWh
+          </td>
+        </tr>
+        <tr>
+          <td>
+            5/31/2017
+          </td>
+          <td>
+            18102
+          </td>
+          <td>
+            kWh
+          </td>
+        </tr>
+        <tr>
+          <td>
+            6/30/2017
+          </td>
+          <td>
+            18290
+          </td>
+          <td>
+            kWh
+          </td>
+        </tr>
+        <tr>
+          <td>
+            7/31/2017
+          </td>
+          <td>
+            18453
+          </td>
+          <td>
+            kWh
+          </td>
+        </tr>
+        <tr>
+          <td>
+            8/31/2017
+          </td>
+          <td>
+            18620
+          </td>
+          <td>
+            kWh
+          </td>
+        </tr>
+        <tr>
+          <td>
+            9/30/2017
+          </td>
+          <td>
+            18782
+          </td>
+          <td>
+            kWh
+          </td>
+        </tr>
+        <tr>
+          <td>
+            10/31/2017
+          </td>
+          <td>
+            18965
+          </td>
+          <td>
+            kWh
+          </td>
+        </tr>
+        <tr>
+          <td>
+            11/30/2017
+          </td>
+          <td>
+            19230
+          </td>
+          <td>
+            kWh
+          </td>
+        </tr>
+        <tr>
+          <td>
+            12/31/2017
+          </td>
+          <td>
+            19517
+          </td>
+          <td>
+            kWh
+          </td>
+        </tr>
+        <tr>
+          <td>
+            1/31/2018
+          </td>
+          <td>
+            19827
+          </td>
+          <td>
+            kWh
+          </td>
+        </tr>
+        <tr>
+          <td>
+            2/28/2018
+          </td>
+          <td>
+            20113
+          </td>
+          <td>
+            kWh
+          </td>
+        </tr>
+        <tr>
+          <td>
+            3/31/2018
+          </td>
+          <td>
+            20376
+          </td>
+          <td>
+            kWh
+          </td>
+        </tr>
+        <tr>
+          <td>
+            4/30/2018
+          </td>
+          <td>
+            20610
+          </td>
+          <td>
+            kWh
+          </td>
+        </tr>
+      </tbody>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <tr>
+            <styled.th>
+              Date
+            </styled.th>
+            <styled.th>
+              Reading
+            </styled.th>
+            <styled.th>
+              Unit
+            </styled.th>
+          </tr>,
+          Array [
+            <tr>
+              <td>
+                3/31/2017
+              </td>
+              <td>
+                17600
+              </td>
+              <td>
+                kWh
+              </td>
+            </tr>,
+            <tr>
+              <td>
+                4/30/2017
+              </td>
+              <td>
+                17859
+              </td>
+              <td>
+                kWh
+              </td>
+            </tr>,
+            <tr>
+              <td>
+                5/31/2017
+              </td>
+              <td>
+                18102
+              </td>
+              <td>
+                kWh
+              </td>
+            </tr>,
+            <tr>
+              <td>
+                6/30/2017
+              </td>
+              <td>
+                18290
+              </td>
+              <td>
+                kWh
+              </td>
+            </tr>,
+            <tr>
+              <td>
+                7/31/2017
+              </td>
+              <td>
+                18453
+              </td>
+              <td>
+                kWh
+              </td>
+            </tr>,
+            <tr>
+              <td>
+                8/31/2017
+              </td>
+              <td>
+                18620
+              </td>
+              <td>
+                kWh
+              </td>
+            </tr>,
+            <tr>
+              <td>
+                9/30/2017
+              </td>
+              <td>
+                18782
+              </td>
+              <td>
+                kWh
+              </td>
+            </tr>,
+            <tr>
+              <td>
+                10/31/2017
+              </td>
+              <td>
+                18965
+              </td>
+              <td>
+                kWh
+              </td>
+            </tr>,
+            <tr>
+              <td>
+                11/30/2017
+              </td>
+              <td>
+                19230
+              </td>
+              <td>
+                kWh
+              </td>
+            </tr>,
+            <tr>
+              <td>
+                12/31/2017
+              </td>
+              <td>
+                19517
+              </td>
+              <td>
+                kWh
+              </td>
+            </tr>,
+            <tr>
+              <td>
+                1/31/2018
+              </td>
+              <td>
+                19827
+              </td>
+              <td>
+                kWh
+              </td>
+            </tr>,
+            <tr>
+              <td>
+                2/28/2018
+              </td>
+              <td>
+                20113
+              </td>
+              <td>
+                kWh
+              </td>
+            </tr>,
+            <tr>
+              <td>
+                3/31/2018
+              </td>
+              <td>
+                20376
+              </td>
+              <td>
+                kWh
+              </td>
+            </tr>,
+            <tr>
+              <td>
+                4/30/2018
+              </td>
+              <td>
+                20610
+              </td>
+              <td>
+                kWh
+              </td>
+            </tr>,
+          ],
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <styled.th>
+                Date
+              </styled.th>,
+              <styled.th>
+                Reading
+              </styled.th>,
+              <styled.th>
+                Unit
+              </styled.th>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Date",
+              },
+              "ref": null,
+              "rendered": "Date",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Reading",
+              },
+              "ref": null,
+              "rendered": "Reading",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Unit",
+              },
+              "ref": null,
+              "rendered": "Unit",
+              "type": [Function],
+            },
+          ],
+          "type": "tr",
+        },
+        Object {
+          "instance": null,
+          "key": "2017-03-31T00:00:00.000Z",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td>
+                3/31/2017
+              </td>,
+              <td>
+                17600
+              </td>,
+              <td>
+                kWh
+              </td>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "3/31/2017",
+              },
+              "ref": null,
+              "rendered": "3/31/2017",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 17600,
+              },
+              "ref": null,
+              "rendered": 17600,
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "kWh",
+              },
+              "ref": null,
+              "rendered": "kWh",
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+        Object {
+          "instance": null,
+          "key": "2017-04-30T00:00:00.000Z",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td>
+                4/30/2017
+              </td>,
+              <td>
+                17859
+              </td>,
+              <td>
+                kWh
+              </td>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "4/30/2017",
+              },
+              "ref": null,
+              "rendered": "4/30/2017",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 17859,
+              },
+              "ref": null,
+              "rendered": 17859,
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "kWh",
+              },
+              "ref": null,
+              "rendered": "kWh",
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+        Object {
+          "instance": null,
+          "key": "2017-05-31T00:00:00.000Z",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td>
+                5/31/2017
+              </td>,
+              <td>
+                18102
+              </td>,
+              <td>
+                kWh
+              </td>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "5/31/2017",
+              },
+              "ref": null,
+              "rendered": "5/31/2017",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 18102,
+              },
+              "ref": null,
+              "rendered": 18102,
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "kWh",
+              },
+              "ref": null,
+              "rendered": "kWh",
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+        Object {
+          "instance": null,
+          "key": "2017-06-30T00:00:00.000Z",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td>
+                6/30/2017
+              </td>,
+              <td>
+                18290
+              </td>,
+              <td>
+                kWh
+              </td>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "6/30/2017",
+              },
+              "ref": null,
+              "rendered": "6/30/2017",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 18290,
+              },
+              "ref": null,
+              "rendered": 18290,
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "kWh",
+              },
+              "ref": null,
+              "rendered": "kWh",
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+        Object {
+          "instance": null,
+          "key": "2017-07-31T00:00:00.000Z",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td>
+                7/31/2017
+              </td>,
+              <td>
+                18453
+              </td>,
+              <td>
+                kWh
+              </td>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "7/31/2017",
+              },
+              "ref": null,
+              "rendered": "7/31/2017",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 18453,
+              },
+              "ref": null,
+              "rendered": 18453,
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "kWh",
+              },
+              "ref": null,
+              "rendered": "kWh",
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+        Object {
+          "instance": null,
+          "key": "2017-08-31T00:00:00.000Z",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td>
+                8/31/2017
+              </td>,
+              <td>
+                18620
+              </td>,
+              <td>
+                kWh
+              </td>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "8/31/2017",
+              },
+              "ref": null,
+              "rendered": "8/31/2017",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 18620,
+              },
+              "ref": null,
+              "rendered": 18620,
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "kWh",
+              },
+              "ref": null,
+              "rendered": "kWh",
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+        Object {
+          "instance": null,
+          "key": "2017-09-30T00:00:00.000Z",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td>
+                9/30/2017
+              </td>,
+              <td>
+                18782
+              </td>,
+              <td>
+                kWh
+              </td>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "9/30/2017",
+              },
+              "ref": null,
+              "rendered": "9/30/2017",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 18782,
+              },
+              "ref": null,
+              "rendered": 18782,
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "kWh",
+              },
+              "ref": null,
+              "rendered": "kWh",
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+        Object {
+          "instance": null,
+          "key": "2017-10-31T00:00:00.000Z",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td>
+                10/31/2017
+              </td>,
+              <td>
+                18965
+              </td>,
+              <td>
+                kWh
+              </td>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "10/31/2017",
+              },
+              "ref": null,
+              "rendered": "10/31/2017",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 18965,
+              },
+              "ref": null,
+              "rendered": 18965,
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "kWh",
+              },
+              "ref": null,
+              "rendered": "kWh",
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+        Object {
+          "instance": null,
+          "key": "2017-11-30T00:00:00.000Z",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td>
+                11/30/2017
+              </td>,
+              <td>
+                19230
+              </td>,
+              <td>
+                kWh
+              </td>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "11/30/2017",
+              },
+              "ref": null,
+              "rendered": "11/30/2017",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 19230,
+              },
+              "ref": null,
+              "rendered": 19230,
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "kWh",
+              },
+              "ref": null,
+              "rendered": "kWh",
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+        Object {
+          "instance": null,
+          "key": "2017-12-31T00:00:00.000Z",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td>
+                12/31/2017
+              </td>,
+              <td>
+                19517
+              </td>,
+              <td>
+                kWh
+              </td>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "12/31/2017",
+              },
+              "ref": null,
+              "rendered": "12/31/2017",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 19517,
+              },
+              "ref": null,
+              "rendered": 19517,
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "kWh",
+              },
+              "ref": null,
+              "rendered": "kWh",
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+        Object {
+          "instance": null,
+          "key": "2018-01-31T00:00:00.000Z",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td>
+                1/31/2018
+              </td>,
+              <td>
+                19827
+              </td>,
+              <td>
+                kWh
+              </td>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "1/31/2018",
+              },
+              "ref": null,
+              "rendered": "1/31/2018",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 19827,
+              },
+              "ref": null,
+              "rendered": 19827,
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "kWh",
+              },
+              "ref": null,
+              "rendered": "kWh",
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+        Object {
+          "instance": null,
+          "key": "2018-02-28T00:00:00.000Z",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td>
+                2/28/2018
+              </td>,
+              <td>
+                20113
+              </td>,
+              <td>
+                kWh
+              </td>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "2/28/2018",
+              },
+              "ref": null,
+              "rendered": "2/28/2018",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 20113,
+              },
+              "ref": null,
+              "rendered": 20113,
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "kWh",
+              },
+              "ref": null,
+              "rendered": "kWh",
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+        Object {
+          "instance": null,
+          "key": "2018-03-31T00:00:00.000Z",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td>
+                3/31/2018
+              </td>,
+              <td>
+                20376
+              </td>,
+              <td>
+                kWh
+              </td>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "3/31/2018",
+              },
+              "ref": null,
+              "rendered": "3/31/2018",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 20376,
+              },
+              "ref": null,
+              "rendered": 20376,
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "kWh",
+              },
+              "ref": null,
+              "rendered": "kWh",
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+        Object {
+          "instance": null,
+          "key": "2018-04-30T00:00:00.000Z",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td>
+                4/30/2018
+              </td>,
+              <td>
+                20610
+              </td>,
+              <td>
+                kWh
+              </td>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "4/30/2018",
+              },
+              "ref": null,
+              "rendered": "4/30/2018",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": 20610,
+              },
+              "ref": null,
+              "rendered": 20610,
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "kWh",
+              },
+              "ref": null,
+              "rendered": "kWh",
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+      ],
+      "type": "tbody",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <tbody>
+          <tr>
+            <styled.th>
+              Date
+            </styled.th>
+            <styled.th>
+              Reading
+            </styled.th>
+            <styled.th>
+              Unit
+            </styled.th>
+          </tr>
+          <tr>
+            <td>
+              3/31/2017
+            </td>
+            <td>
+              17600
+            </td>
+            <td>
+              kWh
+            </td>
+          </tr>
+          <tr>
+            <td>
+              4/30/2017
+            </td>
+            <td>
+              17859
+            </td>
+            <td>
+              kWh
+            </td>
+          </tr>
+          <tr>
+            <td>
+              5/31/2017
+            </td>
+            <td>
+              18102
+            </td>
+            <td>
+              kWh
+            </td>
+          </tr>
+          <tr>
+            <td>
+              6/30/2017
+            </td>
+            <td>
+              18290
+            </td>
+            <td>
+              kWh
+            </td>
+          </tr>
+          <tr>
+            <td>
+              7/31/2017
+            </td>
+            <td>
+              18453
+            </td>
+            <td>
+              kWh
+            </td>
+          </tr>
+          <tr>
+            <td>
+              8/31/2017
+            </td>
+            <td>
+              18620
+            </td>
+            <td>
+              kWh
+            </td>
+          </tr>
+          <tr>
+            <td>
+              9/30/2017
+            </td>
+            <td>
+              18782
+            </td>
+            <td>
+              kWh
+            </td>
+          </tr>
+          <tr>
+            <td>
+              10/31/2017
+            </td>
+            <td>
+              18965
+            </td>
+            <td>
+              kWh
+            </td>
+          </tr>
+          <tr>
+            <td>
+              11/30/2017
+            </td>
+            <td>
+              19230
+            </td>
+            <td>
+              kWh
+            </td>
+          </tr>
+          <tr>
+            <td>
+              12/31/2017
+            </td>
+            <td>
+              19517
+            </td>
+            <td>
+              kWh
+            </td>
+          </tr>
+          <tr>
+            <td>
+              1/31/2018
+            </td>
+            <td>
+              19827
+            </td>
+            <td>
+              kWh
+            </td>
+          </tr>
+          <tr>
+            <td>
+              2/28/2018
+            </td>
+            <td>
+              20113
+            </td>
+            <td>
+              kWh
+            </td>
+          </tr>
+          <tr>
+            <td>
+              3/31/2018
+            </td>
+            <td>
+              20376
+            </td>
+            <td>
+              kWh
+            </td>
+          </tr>
+          <tr>
+            <td>
+              4/30/2018
+            </td>
+            <td>
+              20610
+            </td>
+            <td>
+              kWh
+            </td>
+          </tr>
+        </tbody>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <tr>
+              <styled.th>
+                Date
+              </styled.th>
+              <styled.th>
+                Reading
+              </styled.th>
+              <styled.th>
+                Unit
+              </styled.th>
+            </tr>,
+            Array [
+              <tr>
+                <td>
+                  3/31/2017
+                </td>
+                <td>
+                  17600
+                </td>
+                <td>
+                  kWh
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  4/30/2017
+                </td>
+                <td>
+                  17859
+                </td>
+                <td>
+                  kWh
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  5/31/2017
+                </td>
+                <td>
+                  18102
+                </td>
+                <td>
+                  kWh
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  6/30/2017
+                </td>
+                <td>
+                  18290
+                </td>
+                <td>
+                  kWh
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  7/31/2017
+                </td>
+                <td>
+                  18453
+                </td>
+                <td>
+                  kWh
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  8/31/2017
+                </td>
+                <td>
+                  18620
+                </td>
+                <td>
+                  kWh
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  9/30/2017
+                </td>
+                <td>
+                  18782
+                </td>
+                <td>
+                  kWh
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  10/31/2017
+                </td>
+                <td>
+                  18965
+                </td>
+                <td>
+                  kWh
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  11/30/2017
+                </td>
+                <td>
+                  19230
+                </td>
+                <td>
+                  kWh
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  12/31/2017
+                </td>
+                <td>
+                  19517
+                </td>
+                <td>
+                  kWh
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  1/31/2018
+                </td>
+                <td>
+                  19827
+                </td>
+                <td>
+                  kWh
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  2/28/2018
+                </td>
+                <td>
+                  20113
+                </td>
+                <td>
+                  kWh
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  3/31/2018
+                </td>
+                <td>
+                  20376
+                </td>
+                <td>
+                  kWh
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  4/30/2018
+                </td>
+                <td>
+                  20610
+                </td>
+                <td>
+                  kWh
+                </td>
+              </tr>,
+            ],
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <styled.th>
+                  Date
+                </styled.th>,
+                <styled.th>
+                  Reading
+                </styled.th>,
+                <styled.th>
+                  Unit
+                </styled.th>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Date",
+                },
+                "ref": null,
+                "rendered": "Date",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Reading",
+                },
+                "ref": null,
+                "rendered": "Reading",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Unit",
+                },
+                "ref": null,
+                "rendered": "Unit",
+                "type": [Function],
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2017-03-31T00:00:00.000Z",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  3/31/2017
+                </td>,
+                <td>
+                  17600
+                </td>,
+                <td>
+                  kWh
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "3/31/2017",
+                },
+                "ref": null,
+                "rendered": "3/31/2017",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 17600,
+                },
+                "ref": null,
+                "rendered": 17600,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "kWh",
+                },
+                "ref": null,
+                "rendered": "kWh",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2017-04-30T00:00:00.000Z",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  4/30/2017
+                </td>,
+                <td>
+                  17859
+                </td>,
+                <td>
+                  kWh
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "4/30/2017",
+                },
+                "ref": null,
+                "rendered": "4/30/2017",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 17859,
+                },
+                "ref": null,
+                "rendered": 17859,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "kWh",
+                },
+                "ref": null,
+                "rendered": "kWh",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2017-05-31T00:00:00.000Z",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  5/31/2017
+                </td>,
+                <td>
+                  18102
+                </td>,
+                <td>
+                  kWh
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "5/31/2017",
+                },
+                "ref": null,
+                "rendered": "5/31/2017",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 18102,
+                },
+                "ref": null,
+                "rendered": 18102,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "kWh",
+                },
+                "ref": null,
+                "rendered": "kWh",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2017-06-30T00:00:00.000Z",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  6/30/2017
+                </td>,
+                <td>
+                  18290
+                </td>,
+                <td>
+                  kWh
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "6/30/2017",
+                },
+                "ref": null,
+                "rendered": "6/30/2017",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 18290,
+                },
+                "ref": null,
+                "rendered": 18290,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "kWh",
+                },
+                "ref": null,
+                "rendered": "kWh",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2017-07-31T00:00:00.000Z",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  7/31/2017
+                </td>,
+                <td>
+                  18453
+                </td>,
+                <td>
+                  kWh
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "7/31/2017",
+                },
+                "ref": null,
+                "rendered": "7/31/2017",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 18453,
+                },
+                "ref": null,
+                "rendered": 18453,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "kWh",
+                },
+                "ref": null,
+                "rendered": "kWh",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2017-08-31T00:00:00.000Z",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  8/31/2017
+                </td>,
+                <td>
+                  18620
+                </td>,
+                <td>
+                  kWh
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "8/31/2017",
+                },
+                "ref": null,
+                "rendered": "8/31/2017",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 18620,
+                },
+                "ref": null,
+                "rendered": 18620,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "kWh",
+                },
+                "ref": null,
+                "rendered": "kWh",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2017-09-30T00:00:00.000Z",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  9/30/2017
+                </td>,
+                <td>
+                  18782
+                </td>,
+                <td>
+                  kWh
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "9/30/2017",
+                },
+                "ref": null,
+                "rendered": "9/30/2017",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 18782,
+                },
+                "ref": null,
+                "rendered": 18782,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "kWh",
+                },
+                "ref": null,
+                "rendered": "kWh",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2017-10-31T00:00:00.000Z",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  10/31/2017
+                </td>,
+                <td>
+                  18965
+                </td>,
+                <td>
+                  kWh
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "10/31/2017",
+                },
+                "ref": null,
+                "rendered": "10/31/2017",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 18965,
+                },
+                "ref": null,
+                "rendered": 18965,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "kWh",
+                },
+                "ref": null,
+                "rendered": "kWh",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2017-11-30T00:00:00.000Z",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  11/30/2017
+                </td>,
+                <td>
+                  19230
+                </td>,
+                <td>
+                  kWh
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "11/30/2017",
+                },
+                "ref": null,
+                "rendered": "11/30/2017",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 19230,
+                },
+                "ref": null,
+                "rendered": 19230,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "kWh",
+                },
+                "ref": null,
+                "rendered": "kWh",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2017-12-31T00:00:00.000Z",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  12/31/2017
+                </td>,
+                <td>
+                  19517
+                </td>,
+                <td>
+                  kWh
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "12/31/2017",
+                },
+                "ref": null,
+                "rendered": "12/31/2017",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 19517,
+                },
+                "ref": null,
+                "rendered": 19517,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "kWh",
+                },
+                "ref": null,
+                "rendered": "kWh",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2018-01-31T00:00:00.000Z",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  1/31/2018
+                </td>,
+                <td>
+                  19827
+                </td>,
+                <td>
+                  kWh
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "1/31/2018",
+                },
+                "ref": null,
+                "rendered": "1/31/2018",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 19827,
+                },
+                "ref": null,
+                "rendered": 19827,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "kWh",
+                },
+                "ref": null,
+                "rendered": "kWh",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2018-02-28T00:00:00.000Z",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  2/28/2018
+                </td>,
+                <td>
+                  20113
+                </td>,
+                <td>
+                  kWh
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "2/28/2018",
+                },
+                "ref": null,
+                "rendered": "2/28/2018",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 20113,
+                },
+                "ref": null,
+                "rendered": 20113,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "kWh",
+                },
+                "ref": null,
+                "rendered": "kWh",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2018-03-31T00:00:00.000Z",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  3/31/2018
+                </td>,
+                <td>
+                  20376
+                </td>,
+                <td>
+                  kWh
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "3/31/2018",
+                },
+                "ref": null,
+                "rendered": "3/31/2018",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 20376,
+                },
+                "ref": null,
+                "rendered": 20376,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "kWh",
+                },
+                "ref": null,
+                "rendered": "kWh",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "2018-04-30T00:00:00.000Z",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  4/30/2018
+                </td>,
+                <td>
+                  20610
+                </td>,
+                <td>
+                  kWh
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "4/30/2018",
+                },
+                "ref": null,
+                "rendered": "4/30/2018",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 20610,
+                },
+                "ref": null,
+                "rendered": 20610,
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "kWh",
+                },
+                "ref": null,
+                "rendered": "kWh",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+        ],
+        "type": "tbody",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
